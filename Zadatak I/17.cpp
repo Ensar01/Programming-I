@@ -5,7 +5,7 @@ int unosm();
 int unosn();
 bool slozeni(int);
 void ispis(int, int);
-double ArtimetickaSredina(int, int);
+double AritmetickaSredina(int, int);
 
 
 int main()
@@ -15,7 +15,7 @@ int main()
 
 	cout << "Svi slozeni brojevi od " << m << "-" << n << " su: ";
 	ispis(m, n);
-	cout << ", a njihova artimeticka sredina iznosi: " << ArtimetickaSredina(m, n) << endl;
+	cout << ", a njihova Aritmeticka sredina iznosi: " << AritmetickaSredina(m, n) << endl;
 
 
 
@@ -78,7 +78,7 @@ void ispis(int x, int y)
 	}
 }
 
-double ArtimetickaSredina(int x, int y)
+double AritmetickaSredina(int x, int y)
 {
 	int brojac = 0;
 	int suma = 0;
