@@ -4,7 +4,7 @@ using namespace std;
 
 int unos();
 bool isSavrsen(int);
-double ArtimetickaSredina(int, int);
+double AritmetickaSredina(int, int);
 
 int main()
 {
@@ -18,7 +18,7 @@ int main()
 		y = temp;
 	}
 
-	cout << "Artimeticka sredina savrsenih brojeva od " << x << "-" << y << " iznos: " << ArtimetickaSredina(x, y);
+	cout << "Aritmeticka sredina savrsenih brojeva od " << x << "-" << y << " iznos: " << AritmetickaSredina(x, y);
 
 	cin.get();
 	return 0;
@@ -58,7 +58,7 @@ bool isSavrsen(int x)
 	return true;
 }
 
-double ArtimetickaSredina(int x, int y)
+double AritmetickaSredina(int x, int y)
 {
 	int as = 0;
 	int brojac = 0;
